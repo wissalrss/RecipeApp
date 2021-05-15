@@ -18,7 +18,7 @@ const Recipe = ({title, calories, image, ingredients}) =>{
                     ))} 
                     </ul>
                     </Card.Text>
-                    {/* <Link to={{pathname:`/description/${Recipe.id}`}}>Read more</Link> */}
+                     <Link to={{pathname:`/${Recipe.title}`}}>Read more</Link> 
                 </Card.Body>
                 </Card>
         </div>
